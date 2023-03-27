@@ -16,7 +16,7 @@ const AddArticle = () => {
         
         const send=async()=>{
            //console.log("imagsdsd",img);
-            const res=await axios.post("http://localhost:5000/api/posts",{
+            const res=await axios.post("https://transcendent-bunny-818b80.netlify.app/api/posts",{
                 "title":title,
                 "content":con,
                 "writtenBy":wb,
@@ -25,7 +25,7 @@ const AddArticle = () => {
             });
             // console.log("response",res.data.title);
             
-            await axios.post("http://localhost:5000/api/postid",{
+            await axios.post("https://transcendent-bunny-818b80.netlify.app/api/postid",{
                 "postid":res.data._id,
                 "posttitle":res.data.title
             });
