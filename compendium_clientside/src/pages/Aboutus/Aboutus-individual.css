@@ -1,0 +1,309 @@
+
+.name{
+    color: #E8E833;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+/* css of separate about us pages */
+.Managingdirectorbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Managingdirectorpic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.Presidentbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Presidentpic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.Founderbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+
+.Founderpic{
+    position: absolute;
+    background-color: #F7CA02;
+    top: 20%;
+    left: 10%;
+}.Cofounderbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Cofounderpic{
+    position: relative;
+    background-color: #F7CA02;
+    top: 20%;
+    left: 10%;
+}
+.Creativedirectorbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Creativedirectorpic,.Founderpic,.Managingdirectorpic,.Presidentpic{
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    width: 300px;
+}
+.teammembersname{
+    position: absolute;
+    width: 40%;
+    left: 40%;
+    top: 20%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #E8E833;
+}
+
+.foundername,.managingdirectorname,.presidentname,.creativedirectorname,.Cofoundername{
+    position: absolute;
+    width: 40%;
+    left: 40%;
+    top: 27%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.creativedirectordescription,.founderdescription,.presidentdescription,.managingdirectordescription,.Cofounderdescription{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 36%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: justify;
+    color: #CCCCCC;
+}
+.Cross{
+    position: absolute;
+    width: 34px;
+    left: 80%;
+    top: 20%;
+    
+}
+.footer-AI{
+    width: 100%;
+    height: 30vw;
+    position: absolute;
+    background: #0E0E0E;
+    top: 110vh;
+}
+.soc-p-art-H{
+    position: relative;
+    top: 6vh;
+    left: 15vw;
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFF7;
+    width: fit-content;
+}
+.linkdin-ic-H{
+    position: absolute;
+    top: 22vh;
+    left: 15vw;
+    width: 30px;
+    height: 30px;
+}
+.insta-ic-H{
+    position: absolute;
+    top: 22.8vh;
+    left: 18.0vw;
+    width: 27px;
+    height: 25px;    
+}
+.mail-ic-H{
+    position: absolute;
+    top: 22.8vh;
+    left: 21vw;
+    width: 27px;
+    height: 25px;  
+}
+
+.footer-nav-H{
+    color: white;
+    position: absolute;
+    left: 60vw;
+    top: 6vh;
+}
+.linkdin-ic-H:hover{
+    cursor: pointer;
+    background-image: #597ECD;
+}
+.mail-ic-H:hover{
+    cursor: pointer;
+    color: #597ECD;
+}
+.insta-ic-H:hover{
+    cursor: pointer;
+    color: #597ECD;
+}
+
+.footer-nav-H>h3{
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    margin-left: 10px;
+    color: #FFFFF7;
+}
+
+.footNav-content-H{
+    /* margin-left: 45px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footNav-content-H>a{
+    margin: 10px;
+    margin-left: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFF7;
+}
+
+.copyright-H{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFF7;
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
+    width: 300px;
+}
+.email{
+    background-color: #F7CA02;
+}
+
+  form input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #0F0F0F;
+    outline: none;
+  }
+  .footNav-content-H>a{
+    text-decoration: none;
+    color: white;
+      
+  }
+  .footNav-content-H>a:hover{
+      color: #F7CA02;
+  }
+
+@media screen and (max-width: 450px)  {
+    .Founderbody{
+        position: absolute;
+        width: 100%;
+        height: 200%;
+        background-color: #0E0E0E;
+    }
+    
+    .Cross{
+        position: relative;
+        top: 5%;
+    }
+    .teammembersname{
+        position: relative;
+        width: 80%;
+        left: 10%;
+        top: 22%;
+    }
+    .foundername,.managingdirectorname,.presidentname,.creativedirectorname,.Cofoundername{
+        position: relative;
+        width: 80%;
+        left: 10%;
+        top: 21%;
+        font-family: Rubik;
+    }
+    .creativedirectordescription,.founderdescription,.presidentdescription,.managingdirectordescription,.Cofounderdescription{
+        position: relative;
+        width: 80%;
+        left: 10%;
+        top: 23%;
+        font-family: Rubik;
+    }
+    .footer-AI{
+        position: absolute;
+        top: 230%;
+    }
+    .insta-ic-H{
+        top: 29vh;
+        left: 7.5vh;
+    }
+    .mail-ic-H{
+        top: 35vh;
+        left: 7.5vh;
+    }
+    .Presidentbody{
+        position: absolute;
+        width: 100%;
+        height: 200%;
+        background-color: #0E0E0E;
+    }
+    
+    .Creativedirectorbody{
+        position: absolute;
+        width: 100%;
+        height: 200%;
+        background-color: #0E0E0E;
+    }
+    .Creativedirectorpic,.Founderpic,.Presidentpic,.Cofounderpic,.Managingdirectorpic{
+        width: 60%;
+        height: 19%;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+    .Managingdirectorbody{
+        position: absolute;
+        width: 100%;
+        height: 200%;
+        background-color: #0E0E0E;
+    }
+    .Cofounderbody{
+        position: absolute;
+        width: 100%;
+        height: 200%;
+        background-color: #0E0E0E;
+    }
+}
