@@ -15,7 +15,7 @@ const ArticleBlock = () => {
     useEffect(()=>{
 
         const fetchArts= async ()=>{
-            const res =  await axios.get("http://localhost:5000/api/posts");
+            const res =  await axios.get("https://transcendent-bunny-818b80.netlify.app/api/posts");
             console.log(" fet ");
             setPosts(res.data.reverse());
         }

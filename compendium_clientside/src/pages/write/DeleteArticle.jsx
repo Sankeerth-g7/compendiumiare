@@ -6,9 +6,9 @@ import "./addArticle.css"
 const DeleteArticle = () => {
 
     const delPost=async(x)=>{
-        await axios.delete("http://localhost:5000/api/posts/"+x);
+        await axios.delete("https://transcendent-bunny-818b80.netlify.app/api/posts/"+x);
         // console.log(" post deleted ",res);
-        await axios.delete("http://localhost:5000/api/postid/"+x);
+        await axios.delete("https://transcendent-bunny-818b80.netlify.app/api/postid/"+x);
         alert("post deleted");
         // this.render();
 
@@ -17,7 +17,7 @@ const DeleteArticle = () => {
     let [postsids,setPostsids]=useState([]);
     useEffect(()=>{
         const fetids=async()=>{
-        const res= await axios.get("http://localhost:5000/api/postid");
+        const res= await axios.get("https://transcendent-bunny-818b80.netlify.app/api/postid");
         setPostsids(res.data);
         }
         fetids();
