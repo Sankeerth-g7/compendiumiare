@@ -1,0 +1,559 @@
+.body-1{
+    position: absolute;
+    background-color: #0E0E0E;
+    width: 100%;
+    height: 120%;
+    margin-bottom: 100px;
+}
+.about{
+    position: absolute;
+    color: #F1F1F1;
+    top: 12%;
+    left: 10%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 52px;
+}
+.logo{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+}
+.about-text1{
+    position: relative;
+    width: 65%;
+    height: 64px;
+    left: 25%;
+    top: 32%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.about-text2{
+    position: relative;
+    width: 80vw;
+    height: 160px;
+    left: 10%;
+    top: 50%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.body-2{
+    position: absolute;
+    top: 130%;
+    width: 100%;
+    height: 100%;
+    background: #0E0E0E;
+    
+}
+.team{
+    position: absolute;
+    left: 45%;
+    margin-top: 4%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.hr2{
+    height:5px;
+    color:white;
+    width:35%;
+    position: absolute;
+    top: 15%;
+    left: 33%;
+}
+.Founder{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background-color: #F7CA02;
+    width:280px;
+    height: 330px;
+}
+.Cofounder{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    background-color: #F7CA02;
+    width:280px;
+    height: 330px;
+}
+.Creativedirector{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width:280px;
+    height: 330px;
+}
+.president{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width:280px;
+    height: 330px;
+}
+.Managingdirector{
+    position: absolute;
+    top: 25%;
+    right: 12%;
+    width: 20%;
+    width:280px;
+    height: 330px;
+}
+.body-3{
+    position: absolute;
+    top: 230%;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+    
+}
+/* .lines{
+    position: absolute;
+    top: 35%;
+    margin-left: 29%;
+    width: 726px;
+    height: 245.15px;
+} */
+
+.name{
+    color: #E8E833;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+.foundertextarea{
+    position: absolute;
+    margin-left: 20%;
+    top: 79%;
+    line-height: 20%;
+}
+.Foundertext{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+.cofoundertextarea{
+    position: relative;
+    top: 82%;
+    left: 60%;
+    width: 300px;
+    height: 100px;
+    line-height: 20%;
+}
+.cofoundertext{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+.creativedirectortextarea{
+    position: relative;
+    top: 52%;
+    left: 10%;
+    width: 300px;
+    height: 100px;
+    line-height: 20%;
+}
+.CreativeDirectortext{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.presidenttextarea{
+    position: relative;
+    top: 63%;
+    margin-left: 40%;
+    line-height: 20%;
+    
+}
+.Presidenttext{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.managingdirectortextarea{
+    position: relative;
+    left: 68%;
+    top: 66%;
+    width: 250px;
+    height: 100px;
+    line-height: 20%;
+}
+.ManagingDirectortext{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+/* css of separate about us pages */
+/* .Managingdirectorbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Managingdirectorpic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.Presidentbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Presidentpic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.Founderbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Founderpic{
+    position: absolute;
+    background-color: #F7CA02;
+    top: 20%;
+    left: 10%;
+}
+.Creativedirectorbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Creativedirectorpic,.Founderpic,.managingdirectorpic,.Presidentpic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.teammembersname{
+    position: absolute;
+    width: 40%;
+    left: 32%;
+    top: 20%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #E8E833;
+}
+
+.foundername,.managingdirectorname,.presidentname,.creativedirectorname{
+    position: absolute;
+    width: 40%;
+    left: 32%;
+    top: 27%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.creativedirectordescription,.founderdescription,.presidentdescription,.managingdirectordescription{
+    position: absolute;
+    width: 50%;
+    left: 32%;
+    top: 36%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: justify;
+    color: #CCCCCC;
+}
+.Cross{
+    position: absolute;
+    width: 34px;
+    left: 80%;
+    top: 20%;
+    
+} */
+.footer-A{
+    width: 100%;
+    height: 30vw;
+    position: absolute;
+    background: #0E0E0E;
+    top: 330vh;
+
+}
+
+
+.soc-p-art-H{
+    position: relative;
+    top: 6vh;
+    left: 15vw;
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFF7;
+    width: fit-content;
+}
+.linkdin-ic-H{
+    position: absolute;
+    top: 22vh;
+    left: 15vw;
+    width: 30px;
+    height: 30px;
+}
+.insta-ic-H{
+    position: absolute;
+    top: 22.8vh;
+    left: 18.0vw;
+    width: 27px;
+    height: 25px;    
+}
+.mail-ic-H{
+    position: absolute;
+    top: 22.8vh;
+    left: 21vw;
+    width: 27px;
+    height: 25px;  
+}
+
+.footer-nav-H{
+    color: white;
+    position: absolute;
+    left: 60vw;
+    top: 6vh;
+}
+.linkdin-ic-H:hover{
+    cursor: pointer;
+    background-image: #597ECD;
+}
+.mail-ic-H:hover{
+    cursor: pointer;
+    color: #597ECD;
+}
+.insta-ic-H:hover{
+    cursor: pointer;
+    color: #597ECD;
+}
+
+.footer-nav-H>h3{
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    margin-left: 10px;
+    color: #FFFFF7;
+}
+
+.footNav-content-H{
+    /* margin-left: 45px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footNav-content-H>a{
+    margin: 10px;
+    margin-left: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFF7;
+}
+
+.copyright-H{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFF7;
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
+}
+.email{
+    background-color: #F7CA02;
+}
+
+  form input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #0F0F0F;
+    outline: none;
+  }
+  .footNav-content-H>a{
+    text-decoration: none;
+    color: white;
+      
+  }
+  .footNav-content-H>a:hover{
+      color: #F7CA02;
+  }
+
+/* mobile design */
+
+@media screen and (max-width:450px) {
+    .about{
+        position: relative;
+        top: 6%;
+        width: 50vw;
+    }
+    .social{
+        display: none;
+    }
+    .logo{
+        display: block;
+        height: 20%;
+        width: 40%;
+        position: relative;
+        top: 10%;
+    }
+    .about-text1{
+        width: 90vw;
+        position: relative;
+        left: 5vw;
+        top: 15%;
+        font-size: 25px;
+        line-height: 27px;
+
+    }
+    .about-text2{
+        width: 90vw;
+        left: 5vw;
+        top: 35%;
+        line-height: 30px;
+
+    }
+    .team{
+        position: relative;
+        left: 25%;
+        top: 6%;
+        width: 60vw;
+    }
+    .body-2{
+        position: absolute;
+        top: 155%;
+    }
+
+    .hr2{
+        position: relative;
+        top: 5%;
+        left: 20%;
+        width: 60vw;
+    }
+    .Founder{
+        position: relative;
+        top: 12%;
+        left: 15%;
+        width: 260px;
+        height: 300px;
+    }
+
+    .foundertextarea {
+        position: relative;
+        top: 10%;
+        right: 5%;
+    }
+    .Cofounder{
+        width: 260px;
+        height: 300px;
+        position: relative;
+        top: 15%;
+        left: 15%;
+    } 
+    .cofoundertextarea {
+        position: relative;
+        top: 13%;
+        left: 15%;
+    }
+    .Cofounder{
+        width: 70%;
+        position: relative;
+        top: 12%;
+        left: 15%;
+    }
+    .body-3{
+        position: absolute;
+        top: 300%;
+    }
+    .president {
+        position: relative;
+        top: 5%;
+        left: 15%;
+        width: 260px;
+        height: 300px;
+    }
+    .Presidenttext{
+        font-size: 25px;
+    }
+    .presidenttextarea {
+        position: relative;
+        right: 25%;
+        top: 7%;
+        line-height: 20%;
+        width: 80vw;
+    }
+    .Managingdirector{
+        width: 260px;
+        height: 300px;
+        position: relative;
+        top: 12%;
+        left: 15%;
+    }
+    .managingdirectortextarea {
+        position: relative;
+        left: 15%;
+        top: 14%;
+        font-size: 25px;
+        line-height: 20%;
+    }
+    .Creativedirector{
+        width: 260px;
+        height: 300px;
+        position: relative;
+        left: 15%;
+        top: 17%;
+    }
+    .creativedirectortextarea {
+        position: relative;
+        top: 19%;
+        left: 15%;
+        font-size: 25px;
+        line-height: 20%;
+    }
+    .footer-2>.insta-ic1 {
+        position: absolute;
+        top: 44%;
+        left: 20%;
+        width: 27px;
+        height: 25px;
+    }
+    .footer-A{
+        position: absolute;
+        top: 500%;
+    }
+    .insta-ic-H{
+        top: 29vh;
+        left: 7.5vh;
+    }
+    .mail-ic-H{
+        top: 35vh;
+        left: 7.5vh;
+    }
+}

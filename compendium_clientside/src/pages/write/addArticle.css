@@ -1,0 +1,74 @@
+.title12{
+    width: 50rem;
+    height: 5rem;
+}
+
+.title12>label{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+input{
+    outline-width: 10px solid black;
+}
+
+.form12{
+    display: block;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+}
+
+.content12{
+    width: 70rem;
+    height: 50rem;
+}
+
+.content12>label{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.wb12{
+    margin-top: 20px;
+    width: 25rem;
+}
+
+.wb12>label{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.date12{
+    margin-top: 20px;
+    width: 25rem;
+    height: 1rem;
+}
+
+.date12>label{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+   
+}
+
+.date12>label{
+    height: 1rem;
+}
+
+.btn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.del-article>button{
+    margin-bottom: 100px;
+}

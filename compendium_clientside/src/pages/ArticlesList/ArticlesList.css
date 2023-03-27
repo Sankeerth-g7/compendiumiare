@@ -1,0 +1,132 @@
+.image{
+   
+    width: 27vw;
+    height: 65vh;
+}
+/* body{
+    background-color: #1d1d1d;
+} */
+.article-block{
+    position: relative;
+    width: 90vw;
+    height: 65vh;
+    background: #000000;
+    border: 1px solid rgba(63, 63, 63, 0.6);
+    box-sizing: border-box;
+
+}
+
+.article-title{
+   
+    width: 25vw;
+    height: 6vh;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;  
+    font-size: 26px;
+    line-height: 6vh;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.articlediv-title{
+    margin-left: 15px;
+    position: relative;
+    left: 30vw;
+    bottom: 63vh;
+    width: 50vw;
+}
+
+.articlediv-content{
+    position: relative;
+    color: white;
+    width: 44vw;
+    height: 18vh;
+    left: 31vw;
+    bottom: 60vh;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 6vh;
+    /* or 250% */
+
+    text-align: justify;
+}
+
+.articlediv-date{
+    position: relative;
+    width: 13vw;
+    height: 5vh;
+    left: 34vw;
+    bottom: 55vh;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    /* or 286% */
+
+    text-transform: capitalize;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.findoutmore{
+    position: relative;
+    width: 14vw;
+    height: 10vh;
+    left: 31vw;
+    bottom: 47vh;
+    border-radius: 15px;
+    background: #F7CA02;
+   
+}
+
+
+@media only screen and (max-width: 480px) {
+    .findoutmore{
+        position: relative;
+        width: 25vw;
+        height: 5vh;
+        font-size:11px;
+        left: 25vw;
+    }
+
+    .image{
+        width: 20vw;
+        height: 25vh;
+    }
+    .article-block{
+        height: 25vh;
+        width: 70vw;
+    }
+    .articlediv-content{
+        visibility: hidden;
+       
+
+    }
+    .articlediv-date{
+        visibility: hidden;
+    }
+    .articlediv-title{
+        position: relative;
+        bottom: 25vh;
+        left: 10vh;
+        width: 40vw;
+        margin-top: 10px;
+    }
+    .article-title{
+        font-size: 15px;
+        line-height: 1vh;
+        position: relative;
+        left: 3vw;
+    }
+
+
+
+  }
+
