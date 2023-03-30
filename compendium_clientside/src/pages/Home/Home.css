@@ -818,10 +818,10 @@ hr{
         left: -20%;
     }
     .rectangle27 , .rectangle28, .rectangle29{
-        height: 25vh;
-        position: relative;
+        height: 100%;
+        /* position: relative; */
         left: -3vw;
-        width: 46vw;
+        width: 100%;
     }
     .spotlight-img2{
         left: -20%;
@@ -860,7 +860,7 @@ hr{
     
     .body6{
         display: none;
-        top: 535%;
+        top: 510%;
     }
     .footer-1{
         position: relative;
@@ -894,6 +894,7 @@ hr{
     .footer-H{
         position: relative;
         top: 225px;
+        height: 70vh;
     }
     .insta-ic-H{
         top: 29vh;
