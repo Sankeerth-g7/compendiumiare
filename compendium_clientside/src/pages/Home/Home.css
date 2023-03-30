@@ -92,6 +92,26 @@ html{
     line-height: 52px;
 
 }
+.articlesdiv{
+    position: relative;
+    top: 28%;
+}
+.findbutton1 {
+    position: relative;
+    width: 12%;
+    height: 7%;
+    top: 100%;
+    left: 10%;
+    cursor: pointer;
+    background: #F7CA02;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    color: #0B0B0B;
+    border-radius: 15px;
+}
 .findbutton{
     position: absolute;
     width: 12%;
@@ -111,48 +131,41 @@ html{
 .twoarticles{
     display: flex;
 }
-.article1{
-    position: absolute;
-    width: 330px;
-    height: 410px;
-    top:28%;
-    left: 10%;
-    background:#597ECD;
-}
-.article1-img{
+/* .article1-img{
     width: 80%;
     height: 80%;
     margin: 20px 30px ;
-}
-.article1-title{
-    margin-left: 40px;
-    font-size: 1rem;
-    width: 70%;
-}
-.article2{
-    position: absolute;
+} */
+.article1 .card{
     width: 330px;
     height: 410px;
-    top: 28%;
-    left: 40%;
-    background: #597ECD;
-}
-.article3{
-    position: absolute;
-    width: 330px;
-    height: 410px;
-    top: 28%;
-    left: 70%;
-    background: #597ECD;
-}
-.arrow{
-    position: absolute;
-    width: 40%;
-    size: 100%;
-    left: 85%;
-    top: 90%;
-}
 
+    background: #597ECD;
+}
+.article1 .card-body,.article2 .card-body{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+.article1 .card .articleredirectbutton,.article2 .card .articleredirectbutton{
+    position: relative;
+    width: 100%;
+    left: 0;
+    color: #FCF7F7 !important;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.article1 .card .articleredirectbutton i,.article2 .card .articleredirectbutton i{
+    padding-left: 50%;
+}
+.article2 .card{
+    width: 330px;
+    height: 410px;
+    background: #C85CFA;
+}
 .body3{
     position: absolute;
     width: 100%;
@@ -637,8 +650,8 @@ hr{
     .sitting{
         position: relative;
         top: 6%;
-        left: 2%;
-        width: 100%;
+        /* left: 2%; */
+        /* width: 100%; */
         height: 30%;
     }
     .social{
@@ -661,9 +674,13 @@ hr{
     .body2{
         position: relative;
         margin-top: 80px;
+        width: 100%;
+        margin: auto auto;
     }
-    .article2{
-        display: none;
+    
+    .twoarticles{
+        display: flex;
+        /* flex-direction: column-reverse; */
     }
     .articles{
         position: relative;
@@ -671,20 +688,19 @@ hr{
         left: 7%;
         width: 50%;
     }
-    .article1 {
-        position: relative;
-        width: 85%;
-        height: 40%;
-        top: 20%;
-        left: 6%;
-        background: #597ECD;
+    .articlesdiv{
+        /* margin-left: 10%; */
+        /* width: 80%; */
+        text-align: center;
     }
-    .findbutton {
-        position: absolute;
-        width: 40%;
-        height: 13%;
-        top: 110%;
-        left: 7%;
+    .article1 {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        max-width: 30px !important;
+
+    }
+    .article2{
+        
     }
     .body3 {
         position: relative;
@@ -712,11 +728,12 @@ hr{
     .body4{
         position: relative;
         margin-top: 80px;
+        width: 100%;
 
     }
     .NewspaperArchives{
         position: relative;
-        width: 70%;
+        width: 20%;
     }
     .NewspaperArchives-content {
         position: relative;
@@ -741,6 +758,7 @@ hr{
     }
     .newsedition{
         position: relative;
+        width: 40%;
     }
     .dropdown {
         position: absolute;

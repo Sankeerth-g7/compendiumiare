@@ -88,7 +88,7 @@ function Homebody(){
     return(
     <div className="wholebody">
         <div className="body1">
-            <img src={sitting} alt="" className="sitting"  />
+            <img src={sitting} alt="" className="sitting "  />
             <div className="social">
                 <img className="longarrow" src={longarrow}   alt="" />
                 <a href="https://www.linkedin.com/in/the-compendium-iare-987b35212/" target='_blank' rel='noreferrer'><img className="linked-in" src={linkedin}   alt="" /></a>
@@ -98,30 +98,47 @@ function Homebody(){
             <div className="bodyone">
                 <p className="tagline">The News and Publication Society of IARE</p>
                 <p className="description">The Compendium (TC) is the News and Publication Society (NPS) of the Institute of Aeronautical Engineering. The Compendium was started in 2019, making it one of the earliest student clubs on campus. </p>
-                {/* <h1 className="body1-subscribe">Subscribe</h1> */}
             </div>
         </div>
         
-        <div className="body2">
+        <div className="body2 ">
             <p className="articles">Articles</p>
-            <Link to={'/articleslist'}><button className="findbutton" type="button">Read More</button></Link>
-            <div className="twoarticles">
-                <div className="article1">
-                    <img className="article1-img" src={article1.img}  alt="" />
-                    <div  className="arrow"><Link to={'/'+article1._id}><img src={arrow} alt="Un available" /></Link></div>
-                    <h3 className="article1-title">{article1.title}</h3>
-                </div>
-                <div className="article2">
+            <br />
+            {/* <Link to={'/articleslist'}><button className="findbutton" type="button">Read More</button></Link> */}
+            {/* <div className="twoarticles col-md-6">
+                <div className="article2 col-md-6 col-sm-6">
                     <img className="article1-img" src={article2.img}  alt="" />
                     <div  className="arrow"> <Link to={'/'+article2._id}><img src={arrow} alt="Un available" /></Link> </div>
                     <h3 className="article1-title">{article2.title}</h3>
                 </div>
-                <div className="article3">
+                <div className="article3 col-md-6 col-sm-6">
                     <img className="article1-img" src={article2.img}  alt="" />
                     <div  className="arrow"> <Link to={'/'+article2._id}><img src={arrow} alt="Un available" /></Link> </div>
                     <h3 className="article1-title">{article2.title}</h3>
                 </div>
-                
+            </div> */}
+            <div class="container-fluid articlesdiv">
+              <div class="row ">
+              <div className="col-md-4">
+            <Link to={'/articleslist'}><button className="findbutton2" type="button">Find Out More</button></Link> 
+              </div>
+                <div class="col-md-3 col-sm-12 article1">
+                  <div class="card">
+                    <img src={sitting} class="card-img-top" alt="Article Image" />
+                    <div class="card-body">                      
+                      <Link to={'/'+article2._id}><p class="btn articleredirectbutton">Initial Article <i class="fa fa-arrow-right"></i></p></Link>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-12 article2">
+                  <div class="card">
+                    <img src={sitting} class="card-img-top" alt="Article Image" />
+                    <div class="card-body">                      
+                      <Link to={'/'+article2._id}><p class="btn articleredirectbutton">Initial Article <i class="fa fa-arrow-right"></i></p></Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
 
@@ -132,22 +149,19 @@ function Homebody(){
                 <img src={logo} alt="" />
             </div>
             <p className="aboutus-content">The Compendium (TC) is the News and Publication Society (NPS) of the Institute of Aeronautical Engineering. The Compendium was started in 2019, making it one of the earliest student clubs on campus.</p>
-             <Link to={'/aboutus'}>  <button className="findbutton1" type="button">Read More</button></Link> 
+             <Link to={'/aboutus'}>  <button className="findbutton1" type="button">Find Out More</button></Link> 
         </div>
 
 
         <div className="body4">
             <p className="NewspaperArchives" >Newspaper Archives</p>
             <p className="NewspaperArchives-content">Our organization is run by IARE undergraduates. Up to _ students a year are involved in The Compendium, mastering skills such as reporting, journalism, writing, photography, digital production, videography, editing, graphic design and social media management while also learning effective communication and how to manage teams and their own schedules.</p>
-            {/* <h1 className="number01">01</h1> */}
             <img className="line" src={line} alt="" />
             <img className="circle1" src={circle} alt="" />
             <img className="circle2" src={circle} alt="" />
             <img className="circle3" src={circle} alt="" />
             <img className="ellipse1" src={ellipse} alt="" />
             <p className="newsedition">Newspaper Editions</p>
-            {/* <a href={issue1} target="__blank" > <img className="eye"  src={eye} alt="" /></a>
-            <Link download={issue1} target="__blank"> <img className="download" src={download} alt="" /></Link> */}
             <div class="dropdown">
                 <Link class="dropbtn"><img className="droparrow" src={droparrow} alt="" /></Link>
                 <div class="dropdown-content">
@@ -161,7 +175,7 @@ function Homebody(){
 
 
         <div className="body5">
-            <p className="Spotlight" >Team</p>
+            <p className="Spotlight" >Spotlight.</p>
             {/* <p className="Spotlight-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p> */}
             <Link to={'/gallery'}><button className="findbutton2" type="button">Read More</button></Link> 
             <div className="spotlight-img">
