@@ -1,5 +1,5 @@
 html{
-    background-color: white;
+    /* background-color: white; */
 }
 .longarrow{
     position: absolute;
@@ -69,7 +69,7 @@ html{
     color: #857E7E;
     opacity: 0.8;
 }
-.body2{
+.homebody2{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -171,7 +171,7 @@ html{
     height: 410px;
     background: #C85CFA;
 }
-.body3{
+.homebody3{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -228,7 +228,7 @@ html{
     color: #0B0B0B;
     border-radius: 15px;
 }
-.body4{
+.homebody4{
     position: absolute;
     background-color: #0E0E0E;
     width: 100%;
@@ -275,7 +275,7 @@ html{
     line-height: 40px;
     color: #FFFFFF;
 }
-.body5{
+.homebody5{
     position: absolute;
     left: 0%;
     top: 372%;
@@ -325,7 +325,7 @@ html{
     color: #0B0B0B;
     border-radius: 15px;
 }
-.body6{
+.homebody6{
     display: none;
     position: absolute;
     top: 452%;
@@ -647,7 +647,7 @@ hr{
 /* mobile view  */
 
 @media screen and (max-width:600px){
-    .body1{
+    .homebody1{
         height: fit-content;
         background: white;
     }
@@ -676,7 +676,7 @@ hr{
         left: 4%;
         top: 40%;
     }
-    .body2{
+    .homebody2{
         position: relative;
         margin-top: 80px;
         width: 100%;
@@ -708,7 +708,7 @@ hr{
     .article2{
         
     }
-    .body3 {
+    .homebody3 {
         position: relative;
         margin-top: 120px;
     }
@@ -731,7 +731,7 @@ hr{
         height: 55px;
         margin-top: 130px;
     }
-    .body4{
+    .homebody4{
         position: relative;
         margin-top: 80px;
         width: 100%;
@@ -785,7 +785,7 @@ hr{
     .dropdown:hover .dropdown-content {
         display: block;
     }
-    .body5{
+    .homebody5{
         position: relative;
         margin-top: 65px;
     }
@@ -858,7 +858,7 @@ hr{
         /* margin-top: 220px; */
     }
     
-    .body6{
+    .homebody6{
         display: none;
         top: 510%;
     }
@@ -873,7 +873,7 @@ hr{
     .subscribeimage{
         display: none;
     }
-    .body6>hr{
+    .homebody6>hr{
         display: none;
     }
     .subscribe-content{
