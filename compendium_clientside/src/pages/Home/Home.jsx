@@ -87,7 +87,7 @@ function Homebody(){
 
     return(
     <div className="wholebody">
-        <div className="body1">
+        <div className="homebody1">
             <img src={sitting} alt="" className="sitting "  />
             <div className="social">
                 <img className="longarrow" src={longarrow}   alt="" />
@@ -101,7 +101,7 @@ function Homebody(){
             </div>
         </div>
         
-        <div className="body2 ">
+        <div className="homebody2 ">
             <p className="articles">Articles</p>
             <br />
             {/* <Link to={'/articleslist'}><button className="findbutton" type="button">Read More</button></Link> */}
@@ -146,7 +146,7 @@ function Homebody(){
             </div>
         </div>
 
-        <div className="body3">
+        <div className="homebody3">
             
             <p className="aboutus" >About Us</p>
             <div className="body3logo">
@@ -157,7 +157,7 @@ function Homebody(){
         </div>
 
 
-        <div className="body4">
+        <div className="homebody4">
             <p className="NewspaperArchives" >Newspaper Archives</p>
             <p className="NewspaperArchives-content">Our organization is run by IARE undergraduates. Up to _ students a year are involved in The Compendium, mastering skills such as reporting, journalism, writing, photography, digital production, videography, editing, graphic design and social media management while also learning effective communication and how to manage teams and their own schedules.</p>
             <img className="line" src={line} alt="" />
@@ -178,7 +178,7 @@ function Homebody(){
         </div>
 
 
-        <div className="body5">
+        <div className="homebody5">
             <p className="Spotlight" >Spotlight.</p>
             {/* <p className="Spotlight-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p> */}
             <Link to={'/gallery'}><button className="findbutton2" type="button">Read More</button></Link> 
@@ -194,7 +194,7 @@ function Homebody(){
         </div>
 
 
-        <div className="body6">
+        <div className="homebody6">
             <p className="Subscribe" >Subscribe</p>
             <img className="subscribeimage" src={subscribe} alt='Un available' />
             <hr  />
