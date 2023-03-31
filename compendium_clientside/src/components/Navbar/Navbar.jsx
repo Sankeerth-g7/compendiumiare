@@ -7,7 +7,7 @@ function NavBar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
-  return (
+  return ( 
     <>
       <nav className="navbar">
         <div className="nav-container">
