@@ -3,6 +3,39 @@
   src: url(../Navbar/fonts/Canterbury.ttf);
 }
 
+@media (min-width: 1281px) {
+
+  .navbar {
+      max-width: 1800px;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1281px) {
+
+  .navbar {
+    width: 100%;
+    width: max-content;
+
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .navbar {
+      width: 100%;
+      width: max-content;
+  
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+
+}
 
 body{
   text-decoration: none;
