@@ -87,8 +87,8 @@ function Homebody(){
 
     return(
     <div className="wholebody">
-        <div className="homebody1">
-            <img src={sitting} alt="" className="sitting "  />
+        <div className="body1">
+            <img src={sitting} alt="" className="sitting"  />
             <div className="social">
                 <img className="longarrow" src={longarrow}   alt="" />
                 <a href="https://www.linkedin.com/in/the-compendium-iare-987b35212/" target='_blank' rel='noreferrer'><img className="linked-in" src={linkedin}   alt="" /></a>
@@ -98,9 +98,23 @@ function Homebody(){
             <div className="bodyone">
                 <p className="tagline">The News and Publication Society of IARE</p>
                 <p className="description">The Compendium (TC) is the News and Publication Society (NPS) of the Institute of Aeronautical Engineering. The Compendium was started in 2019, making it one of the earliest student clubs on campus. </p>
+                {/* <h1 className="body1-subscribe">Subscribe</h1> */}
             </div>
         </div>
-        
+        {/* <div className="fluid-container homebody1web">
+            <div className="row">
+            <div className="col-md-2"></div>
+                <div class="col-md-4 w-100 sittingimgweb"> 
+                    <img src={sitting} class="img-fluid " alt="..." />
+                </div>
+                <div className="col-md-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper turpis nulla, eu bibendum odio viverra vel. Donec malesuada libero et purus vehicula consequat.</p>
+                    <p>Nam dignissim sapien quis augue dignissim sollicitudin. Sed volutpat, velit eget interdum fringilla, felis mi consequat lectus, sed efficitur nisi ex non mi.</p>
+                    <button class="btn btn-primary">Click me</button>
+                </div>
+                <div className="col-md-2"></div>
+            </div>
+        </div> */}
         <div className="homebody2 ">
             <p className="articles">Articles</p>
             <br />
