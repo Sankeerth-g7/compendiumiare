@@ -21,7 +21,7 @@ function Article(){
   
     useEffect(()=>{
         const fetchPost=async()=>{
-            const res=await axios.get("http://localhost:5000/api/posts"+path);
+            const res=await axios.get("https://compendiumiare.onrender.com/api/posts"+path);
             
             setArt(res.data);
             // console.log(art,"length",res.data.content.length);

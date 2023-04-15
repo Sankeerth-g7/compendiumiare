@@ -197,14 +197,13 @@ function Homebody(){
             {/* <p className="Spotlight-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p> */}
             <Link to={'/gallery'}><button className="findbutton2" type="button">Read More</button></Link> 
             <div className="spotlight-img">
-                <div className="spotlight-img1"><img className="rectangle27 w-100 h-100" src={rectangle27} alt="" /></div>
-                <div className="spotlight-img3"><img className="rectangle29 w-100 h-100" src={rectangle29} alt="" /></div>
+                <div className="spotlight-img1"><img className="rectangle27 w-100 h-100" src={rectangle29} alt="" /></div>
+                <div className="spotlight-img3"><img className="rectangle29 w-100 h-100" src={rectangle27} alt="" /></div>
                 <div className="spotlight-img2"><img className="rectangle28 w-100 h-100" src={rectangle28} alt="" /></div>
                 <img className="vector-18" src={vector} alt="" />
                 <img className="ellipse" src={ellipse} alt="" />
                 <img className="vector-23" src={vector23} alt="" />
             </div>
-            
         </div>
 
 

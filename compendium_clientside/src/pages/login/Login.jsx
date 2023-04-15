@@ -13,7 +13,7 @@ const Login = () => {
     const handleSubmit=async(e)=>{
         // console.log(username,pwd,"username pwd");
         const logtest=async()=>{
-            const res=await axios.post("http://localhost:5000/api/user/login",{
+            const res=await axios.post("https://compendiumiare.onrender.com/api/user/login",{
                 "username":username,
                 "password":pwd
             });
